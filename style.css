@@ -32,10 +32,8 @@ header {
 nav {
     grid-area: nav;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
-    margin: 0;
     padding: 0;
     background-color: #D8B89F;
     color: #FFFFFF;
@@ -43,17 +41,18 @@ nav {
 
 nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;;
     list-style-type: none;
     align-items: center;
-    padding: 0;
-    margin: 0;
     gap: 15px;
+    color: #FFFFFF;
+    font-size: 60px;
 }
 
 nav a:link,
 nav a:visited {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 nav a:hover,
@@ -64,16 +63,17 @@ nav a:focus {
 main {
     grid-area: main;
     text-align: center;
-    line-height: 1.6;
     background-color: #f0e0d3;
     font-size: 20px;
-    padding: 10px;
+    height: 800px;
 }
 
 footer {
     grid-area: footer;
-    padding: 20px;
     text-align: center;
-    background-color: D8B89F;
+    background-color: #D8B89F;
+    font-family: Allura, sans-serif;
     color: #FFFFFF;
+    font-size: 40px;
+    height: 200px;
 }
