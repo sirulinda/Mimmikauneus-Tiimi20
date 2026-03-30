@@ -17,7 +17,7 @@ body {
     "nav"
     "main"
     "footer";
-    gap: 16px;
+    gap: 0;
 }
 
 header {
@@ -45,7 +45,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 nav ul {
@@ -57,7 +56,6 @@ nav ul {
     font-family: Allura, sans-serif;
     color: #FFFFFF;
     font-size: 40px;
-    white-space: nowrap;
 }
 
 nav a:link,
@@ -74,17 +72,21 @@ nav a:focus {
 main {
     grid-area: main;
     text-align: center;
+    margin: 0;
+    padding: 0;
     background-color: #f0e0d3;
     font-size: 20px;
-    height: 900px;
+    min-height: 900px;
 }
 
 footer {
     grid-area: footer;
     text-align: center;
+    margin: 0;
+    padding: 0;
     background-color: #D8B89F;
     font-family: Allura, sans-serif;
     color: #FFFFFF;
     font-size: 40px;
-    height: 150px;
+    min-height: 150px;
 }
