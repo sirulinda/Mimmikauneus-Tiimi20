@@ -1,10 +1,12 @@
 
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap");
 
 body {
     margin: 0;
     padding: 0;
-    font-family:
+    font-family: "Afacad flux", sans-serif;
+    color: #000000;
 }
 
 .container {
@@ -18,17 +20,31 @@ body {
     gap: 16px;
 }
 
-.header {
+header {
     grid-area: header;
+    text-align: center;
+    height: 200px;
+    background-color: #D8B89F;
+    font-family: Allura, sans-serif;
+    color: #FFFFFF;
 }
 
-.nav {
+nav {
     grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #D8B89F;
+    color: #FFFFFF;
 }
 
-.nav ul {
+nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    list-style-type: none;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -45,12 +61,19 @@ nav a:focus {
     cursor: pointer;
 }
 
-.main {
+main {
     grid-area: main;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #f0e0d3;
+    font-size: 20px;
+    padding: 10px;
 }
 
-.footer {
+footer {
     grid-area: footer;
     padding: 20px;
     text-align: center;
+    background-color: D8B89F;
+    color: #FFFFFF;
 }
