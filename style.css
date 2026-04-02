@@ -79,6 +79,16 @@ main {
     min-height: 900px;
 }
 
+img {
+    margin-right: 15px; 
+    margin-top: 15px;
+}
+
+img:last-child {
+    margin-right: 0; 
+} 
+
+
 footer {
     grid-area: footer;
     text-align: center;
