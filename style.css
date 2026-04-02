@@ -82,6 +82,7 @@ main {
 footer {
     grid-area: footer;
     text-align: center;
+    overflow: auto;
     margin: 0;
     padding: 0;
     background-color: #D8B89F;
