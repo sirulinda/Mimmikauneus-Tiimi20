@@ -9,6 +9,8 @@ body {
     color: #000000;
 }
 
+
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -20,10 +22,12 @@ body {
     gap: 0;
 }
 
-header {
+
+.hero {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 0px;
     padding: 20px;
     height: 150px;
     background-color: #D8B89F;
@@ -31,28 +35,41 @@ header {
     color: #FFFFFF;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 20px;
-    background-color: #D8B89F;
-    color: #FFFFFF;
-}
-
 .hero-logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 10px; 
 }
 
-nav ul {
+.hero-nav {
+    flex: 0;
+}
+
+.hero-nav ul {
     display: flex;
-    list-style-type: none;
-    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+    padding: 0;       
     margin: 0;
-    padding: 0;
+    gap: 20px;
+}
+
+.hero-nav-left{
+    flex: 1;              
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px;                 
+    font-family: Allura, sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.hero-nav-right {
+    display: flex;
+    flex: 1;                 
+    justify-content: flex-start; 
+    gap: 30px;
     font-family: Allura, sans-serif;
     color: #FFFFFF;
     font-size: 40px;
