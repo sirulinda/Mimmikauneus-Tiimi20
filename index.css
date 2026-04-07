@@ -92,30 +92,35 @@ img:last-child {
 footer {
     grid-area: footer;
     display: flex;
-    align-items: flex-start; 
-    justify-content: flex-start;
+    justify-content: space-between; 
+    align-items: flex-start;        
     box-sizing: border-box;
-    padding: 20px 40px; 
+    padding: 20px 40px;            
     background-color: #D8B89F;
-    font-family: "Afacad flux", sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
-    height: 150px; 
-    overflow: hidden;
-    position: relative; 
-}
-
-
-footer p {
-    margin: 0;
-    padding: 0;
+    height: 150px;
+    position: relative;
 }
 
 
 footer img {
+    position: static; 
+    transform: none;
+    margin: 0;
+}
+
+
+.footer-logo-wrap {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-socials {
+    display: flex;
+    gap: 15px; 
 }
