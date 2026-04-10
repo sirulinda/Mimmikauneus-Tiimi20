@@ -7,9 +7,8 @@ body {
     padding: 0;
     font-family: "Afacad flux", sans-serif;
     color: #000000;
+    background-color: #f0e0d3;
 }
-
-
 
 .container {
     display: grid;
@@ -21,7 +20,6 @@ body {
     "footer";
     gap: 0;
 }
-
 
 .hero {
     display: flex;
@@ -70,35 +68,62 @@ nav a:focus {
 }
 
 main {
+    display: flex;
     grid-area: main;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 40px;
     background-color: #f0e0d3;
     font-size: 20px;
-    min-height: 900px;
+    min-height: 950px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    display: block;
 }
 
 img {
-    margin-right: 15px; 
+    margin-right: 15px;
     margin-top: 15px;
 }
 
 img:last-child {
     margin-right: 0; 
-} 
-
+}
 
 footer {
     grid-area: footer;
-    text-align: center;
-    overflow: auto;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;        
+    box-sizing: border-box;
+    padding: 20px 40px;            
     background-color: #D8B89F;
-    font-family: Allura, sans-serif;
     color: #FFFFFF;
-    font-size: 40px;
-    min-height: 150px;
+    height: 150px;
+    position: relative;
 }
 
+footer img {
+    position: static; 
+    transform: none;
+    margin: 0;
+}
+
+.footer-logo-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px; 
+}
