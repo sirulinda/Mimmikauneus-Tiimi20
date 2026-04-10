@@ -74,8 +74,9 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 40px;
+    padding: 0;
     background-color: #f0e0d3;
+    color: #000000;
     font-size: 20px;
     min-height: 950px;
 }
