@@ -65,7 +65,8 @@ nav a:focus {
 
 .mimmi {
     font-family: "Allura", cursive;
-    font-size: 80px;
+    font-size: 60px;
+    display: block;
 }
 
 .about-container {
@@ -94,6 +95,7 @@ nav a:focus {
     height: auto;
     border-radius: 10px;
     object-fit: cover;
+    margin-top: -50px;
 }
 
 .about-text {
@@ -123,42 +125,48 @@ nav a:focus {
 
 /* FOOTER */
 footer {
+    grid-area: footer;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 60px;
+    justify-content: space-between; 
+    align-items: flex-start;        
+    box-sizing: border-box;
+    padding: 20px 40px;            
     background-color: #D8B89F;
     color: #FFFFFF;
+    height: 150px;
+    position: relative;
 }
 
-.footer-logo-wrap img {
-    height: 100px;
+
+footer img {
+    position: static; 
+    transform: none;
+    margin: 0;
 }
+
+
+.footer-logo-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
 
 .footer-socials {
     display: flex;
-    gap: 15px;
+    gap: 15px; 
 }
 
-.footer-socials img {
-    width: 50px;
-}
-
-/* MOBIILI */
-@media (max-width: 850px) {
-    .hero {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-    }
+@media (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        align-items: center;
         text-align: center;
     }
-    footer {
-        flex-direction: column;
-        gap: 30px;
+
+    .about-text {
         text-align: center;
     }
 }
