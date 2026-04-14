@@ -94,8 +94,7 @@ nav a:focus {
     max-width: 350px; 
     height: auto;
     border-radius: 10px;
-    object-fit: cover;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 
 .about-text {
