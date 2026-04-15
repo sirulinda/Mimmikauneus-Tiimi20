@@ -73,6 +73,26 @@ nav a:focus {
 
 .etusivu-kuva img {
     border-radius: 20px;
+    margin-top: 50px;
+}
+
+.allekirjoitus {
+    display: flex;          
+    align-items: center;    
+    justify-content: center; 
+    gap: 10px;              
+    margin-top: 20px;       
+}
+
+.sydämellä p {
+    margin: 0;
+    font-size: 30px; 
+}
+
+
+.heart-icon img {
+    width: 80px;  
+    height: auto;
 }
 
 main {
