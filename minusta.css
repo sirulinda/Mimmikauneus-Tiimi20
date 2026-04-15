@@ -69,16 +69,24 @@ nav a:focus {
 
 main {
     text-align: center;
+    font-size: 20px;
+    color: #6d4d35;
     padding: 60px 20px;
     background-color: #f0e0d3;
+
 }
 
 h2 {
     font-family: "Afacad Flux", "Allura";
-    font-size: 35px;
+    font-size: 20px;
+}
+
+.about-text {
+    font-size: 20px;
 }
 
 .about-title {
+    font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
     margin-left: 75px;
