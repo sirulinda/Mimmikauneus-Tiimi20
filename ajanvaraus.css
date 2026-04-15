@@ -73,22 +73,16 @@ main {
     margin: 0 auto;
     padding: 10px;
     background-color: #f0e0d3;
+    color: #6d4d35;
     font-size: 20px;
     min-height: 900px;
-}
-
-iframe {
-    width: 100%;
-    border: none;
-    display: block;
-    margin-top: 50px;
 }
 
 .text-area {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: 30px;
 }
 
 .text-content {
@@ -101,6 +95,13 @@ iframe {
 
 .text-content p {
     margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    display: block;
+    margin-top: 50px;
 }
 
 footer {
