@@ -201,6 +201,10 @@ h3 {
     display: block;
 }
 
+.text-content {
+margin-bottom: 25px;
+}
+
 
 footer {
     grid-area: footer;
