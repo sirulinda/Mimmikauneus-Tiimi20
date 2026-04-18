@@ -195,6 +195,10 @@ footer {
     color: #6d4d35;
 }
 
+.footer-tietosuojaseloste {
+    color: #6d4d35;
+}
+
 footer img {
     position: static; 
     transform: none;
