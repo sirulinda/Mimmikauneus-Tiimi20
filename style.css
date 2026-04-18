@@ -381,4 +381,9 @@ footer img {
         height: auto;
         overflow: auto;
     }
+
+    .footer-info {
+        flex-direction: column;
+        text-align: center;   
+    }
 }
