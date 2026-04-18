@@ -81,13 +81,13 @@ nav a:focus {
     display: flex;          
     align-items: center;    
     justify-content: center; 
-    gap: 10px;              
+    gap: 0px;              
     margin-top: 20px;       
 }
 
 .sydämellä p {
     margin: 0;
-    font-size: 30px; 
+    font-size: 25px; 
 }
 
 
