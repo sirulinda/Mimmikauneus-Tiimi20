@@ -78,10 +78,15 @@ nav a:focus {
 }
 
 .etusivu-kuvat img {
-    width: 30%;
-    height: auto;
+    width: auto;
+    height: 350px;
     border-radius: 20px;
     margin-top: 25px;
+    margin-right: 15px;
+}
+
+.etusivu-kuvat img:last-child {
+    margin-right: 0;
 }
 
 .allekirjoitus {
@@ -120,15 +125,7 @@ main p {
     text-align: center;
 }
 
-img {
-    margin: 0;
-}
-
-img:last-child {
-    margin-right: 0; 
-} 
-
-.about-container {
+.minusta-page .about-container {
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -137,7 +134,7 @@ img:last-child {
     padding: 0 20px;
 }
 
-.mimmi {
+.minusta-page .mimmi {
     font-family: "Allura", cursive;
     font-size: 70px; 
     display: block;
@@ -146,7 +143,7 @@ img:last-child {
     margin-top: 0px;
 }
 
-.minusta-image {
+.minusta-page .minusta-image {
     width: 100%;
     max-width: 400px; 
     height: auto;
@@ -154,7 +151,7 @@ img:last-child {
     margin-top: 10px;
     }
 
-.minusta-image img {
+.minusta-page .minusta-image img {
     width: 100%;
     max-width: 350px; 
     height: auto;
@@ -162,7 +159,7 @@ img:last-child {
     margin-top: 35px;
 }
 
-.about-image {
+.minusta-page .about-image {
     display: flex;
     flex-direction: row; 
     gap: 20px;
@@ -172,7 +169,7 @@ img:last-child {
     margin: 0 auto;
 }
 
-.about-image img {
+.minusta-page .about-image img {
     width: 100%;
     max-width: 350px; 
     height: auto;
@@ -180,7 +177,7 @@ img:last-child {
     margin-top: 35px;
 }
 
-.image-row img {
+.hinnasto-page .image-row img {
     height: 650px;
     width: auto;
     border-radius: 20px;
@@ -189,7 +186,7 @@ img:last-child {
     display: block;
 }
 
-.image-row {
+.hinnasto-page .image-row {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -202,7 +199,7 @@ h3 {
     margin-top: 40px;  
 }
 
-.lisakuvat-image-row {
+.hinnasto-page .lisakuvat-image-row {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -210,14 +207,14 @@ h3 {
     margin-bottom: 20px;
 }
 
-.lisakuvat-image-row img {
+.hinnasto-page .lisakuvat-image-row img {
     width: 250px;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.palvelu-images {
+.palvelut-page .palvelu-images {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -226,7 +223,7 @@ h3 {
     width: 100%;
 }
 
-.palvelu-images img {
+.palvelut-page .palvelu-images img {
     height: 450px;
     width: auto;
     border-radius: 20px;
