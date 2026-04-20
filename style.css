@@ -125,15 +125,6 @@ main p {
     text-align: center;
 }
 
-.minusta-page .about-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    max-width: 1100px; 
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
 .minusta-page .mimmi {
     font-family: "Allura", cursive;
     font-size: 70px; 
@@ -143,12 +134,24 @@ main p {
     margin-top: 0px;
 }
 
+
+.minusta-page .about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px; 
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
 .minusta-page .minusta-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
     width: 100%;
-    max-width: 400px; 
-    height: auto;
-    border-radius: 10px; 
-    margin-top: 10px;
     }
 
 .minusta-page .minusta-image img {
@@ -159,23 +162,6 @@ main p {
     margin-top: 35px;
 }
 
-.minusta-page .about-image {
-    display: flex;
-    flex-direction: row; 
-    gap: 20px;
-    max-width: 600px; 
-    width: 100%;
-    justify-content: center; 
-    margin: 0 auto;
-}
-
-.minusta-page .about-image img {
-    width: 100%;
-    max-width: 350px; 
-    height: auto;
-    border-radius: 10px;
-    margin-top: 35px;
-}
 
 .hinnasto-page .image-row img {
     height: 650px;
@@ -319,31 +305,51 @@ footer img {
         height: 200px;
     }
 
-    .image-row,
+    .hinnasto-page .image-row,
     .lisakuvat-image-row {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .image-row img,
+    .hinnasto-page .image-row img,
     .lisakuvat-image-row img {
         width: 90%;
         max-width: 350px;
         margin-right: 0;
     }
     
-    .palvelu-images {
+    .palvelut-page .palvelu-images {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-        
-    .palvelu-images img {
+    
+    .palvelut-page .palvelu-images img {
         width: 90%;
         max-width: 350px;
         height: 450px;
         margin-right: 0;
+    }
+
+    .minusta-page .minusta-image {
+        
+        align-items: center;
+        gap: 20px;
+    }
+
+    .minusta-page .minusta-image img {
+        display: block;
+        width: 90%;
+        max-width: 350px;
+        margin-right: 0;
+    }
+
+    .minusta-page .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
     }
 
     main p {
