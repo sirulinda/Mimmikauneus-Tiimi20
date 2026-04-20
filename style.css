@@ -108,6 +108,38 @@ nav a:focus {
     height: auto;
 }
 
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    margin: 40px auto;
+}
+
+.instagram-container {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.feedback-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 300px; 
+}
+
+.feedback-img {
+    width: 45%; 
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
 main {
     grid-area: main;
     text-align: center;
@@ -308,6 +340,15 @@ footer img {
         max-width: 350px;
         height: 200px;
     }
+
+    .feedback-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-img {
+        width: 90%;
+    }
+
 
     .hinnasto-page .image-row,
     .lisakuvat-image-row {
