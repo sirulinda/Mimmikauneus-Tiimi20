@@ -101,12 +101,10 @@ nav a:focus {
     font-size: 25px; 
 }
 
-
 .heart-icon img {
     width: 80px;  
     height: auto;
 }
-
 
 .etusivu-page .feedback-container {
     display: flex;
@@ -119,7 +117,6 @@ nav a:focus {
     margin: 0 auto;  
     padding-bottom: 25px;       
 }
-
 
 .etusivu-page .feedback-img img {     
     height: auto;
@@ -158,7 +155,6 @@ main p {
     color: #6d4d35;
 }
 
-
 .minusta-page .about-container {
     display: flex;
     align-items: flex-start;
@@ -188,7 +184,6 @@ main p {
     border-radius: 10px;
     margin-top: 100px;
 }
-
 
 .hinnasto-page .image-row img {
     height: 630px;
@@ -225,9 +220,6 @@ h3 {
     margin: 20px 7px;
 }
 
-
-
-
 .palvelut-page .palvelu-images {
     display: flex;
     justify-content: center;
@@ -247,7 +239,6 @@ h3 {
 .palvelut-page .text-content  {
     padding-bottom: 20px;
 }
-
 
 footer {
     grid-area: footer;
@@ -276,7 +267,6 @@ footer img {
     margin: 0;
 }
 
-
 .footer-logo-wrap {
     position: absolute;
     left: 50%;
@@ -285,7 +275,6 @@ footer img {
     display: flex;
     justify-content: center;
 }
-
 
 .footer-socials {
     display: flex;
@@ -313,7 +302,6 @@ footer img {
     cursor: pointer;
 }
 
-
 @media (max-width: 768px) {
     .etusivu-page .etusivu-kuvat {
         display: flex;
@@ -337,7 +325,6 @@ footer img {
     .feedback-img {
         width: 90%;
     }
-
 
     .hinnasto-page .image-row,
     .lisakuvat-image-row {
@@ -392,28 +379,34 @@ footer img {
         margin-right: auto;
         font-size: 18px;
     }
+
     h3 {
         font-size: 22px;
     }
+
     .hero-nav-left ul,
     .hero-nav-right ul {
         flex-direction: column;
         gap: 10px;
     }
+
     .hero-nav-left li,
     .hero-nav-right li {
         font-size: 36px;
     }
+
     .hero-logo img {
         width: 180px;
         height: auto;
     }
+
     .hero {
         flex-direction: column;
         gap: 20px;
         height: auto;
         padding: 30px 0;
     }
+    
     .footer-logo-wrap {
         position: static;
         transform: none;
