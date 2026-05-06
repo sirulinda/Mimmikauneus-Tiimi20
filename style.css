@@ -311,8 +311,8 @@ footer img {
 
     .etusivu-page .etusivu-kuvat img {
         width: 30%;
-        max-width: 350px;
-        height: auto;
+        height: 200px;
+        object-fit: cover;
     }
 
     .feedback-container {
